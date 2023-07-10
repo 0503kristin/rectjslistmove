@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* HALAMAN ABOUT */
+.header {
+	background-color: #000;
+	height: 60px;
+}
+
+.isi-header-kiri {
+	float: left;
+	width: 50%;
+}
+
+.isi-header-kiri h1 {
+	font-weight: bold;
+	font-size: 30px;
+	color: #eaeaea;
+	margin-top: 2vh;
+	margin-left: 25vh;
+}
+
+.isi-header-kanan {
+	float: right;
+	width: 40%;
+}
+
+.isi-header-kanan ul li {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 3.5%;
+}
+
+.isi-header-kanan ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.25s;
+	color: #eaeaea;
+}
+
+.isi-header-kanan ul li a:hover {
+	color: red;
+}
+
+.gambar-about {
+	background-size: cover;
+	background-image: url('../gambar/foto.jpg');
+	width: 550px;
+	height: 650px;
+}
+
+.kanan-about {
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+}
+
+.kanan-about p {
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+/* HALAMAN BERANDA */
+.background {
+	height: 90.8vh;
+	background-image: url('../gambar/bg.jpg');
+	background-size: cover;
+}
+
+/* HALAMAN LIST */
+.contoh {
+	height: 100vh;
+}
+
+.isi-list {
+	color: #eaeaea;
+	margin-top: 3%;
+	margin-left: 1%;
+	margin-right: 1%;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+.all-list {
+	width: max-content;
+	height: min-content;
+	display: flex;
+}
+
+.all-list ul {
+	border-radius: 15px;
+	width: 550px;
+	height: 510px;
+	margin-left: 1%;
+	background-color: #000;
+}
+
+.formedit {
+	height: 100vh;
+}
+
+.all-list ul li button {
+	width: 100px;
+	outline: none;
+	background-color: #eaeaea;
+	color: #000;
+	border: 0;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.25s;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.all-list ul li button:hover {
+	background-color: #81d4f4;
+}
